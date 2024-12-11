@@ -1,0 +1,53 @@
+package tn.m1pdam.forkids;
+
+public class QuizData {
+    public static QuizQuestions[] getQuestions() {
+        return new QuizQuestions[]{
+                new QuizQuestions("What is the name of the animal with a trunk and big ears?", new String[]{"Elephant", "Lion", "Giraffe", "Monkey"}, "Elephant"),
+                new QuizQuestions("Which animal can swim in water and quack?", new String[]{"Cat", "Dog", "Duck", "Cow"}, "Duck"),
+                new QuizQuestions("What do we call a baby sheep?", new String[]{"Kid", "Calf", "Foal", "Lamb"}, "Lamb"),
+                new QuizQuestions("What is the name of the animal with black and white stripes?", new String[]{"Zebra", "Tiger", "Lion", "Bear"}, "Zebra"),
+                new QuizQuestions("Which animal hops instead of walking?", new String[]{"Kangaroo", "Elephant", "Horse", "Lion"}, "Kangaroo"),
+                new QuizQuestions("Which fruit is red and heart-shaped?", new String[]{"Banana", "Apple", "Orange", "Grapes"}, "Apple"),
+                new QuizQuestions("What vegetable is known to make you cry when you cut it?", new String[]{"Potato", "Tomato", "Carrot", "Onion"}, "Onion"),
+                new QuizQuestions("Which fruit is yellow and known for its curved shape?", new String[]{"Lemon", "Orange", "Banana", "Pineapple"}, "Banana"),
+                new QuizQuestions("What vegetable is green and can be eaten in a salad or cooked?", new String[]{"Potato", "Tomato", "Lettuce", "Cucumber"}, "Lettuce"),
+                new QuizQuestions("Which fruit has a green skin and a red inside?", new String[]{"Watermelon", "Strawberry", "Kiwi", "Pear"}, "Watermelon"),
+                new QuizQuestions("Which color is the grass?", new String[]{"Yellow", "Green", "Blue", "Red"}, "Green"),
+                new QuizQuestions("What color is the sun?", new String[]{"White", "Yellow", "Blue", "Red"}, "Yellow"),
+                new QuizQuestions("What color is the sky on a clear day?", new String[]{"Purple", "Blue", "Green", "Orange"}, "Blue"),
+                new QuizQuestions("Which color is associated with strawberries?", new String[]{"Red", "Blue", "Green", "Yellow"}, "Red"),
+                new QuizQuestions("What color is a ripe banana?", new String[]{"Green", "Yellow", "Red", "Purple"}, "Yellow"),
+                new QuizQuestions("What is 2 + 3?", new String[]{"4", "5", "6", "7"}, "5"),
+                new QuizQuestions("How many sides does a triangle have?", new String[]{"2", "3", "4", "5"}, "3"),
+                new QuizQuestions("What comes after 9 in the number sequence?", new String[]{"10", "11", "12", "13"}, "10"),
+                new QuizQuestions("If you have 3 apples and eat 1, how many apples are left?", new String[]{"1", "2", "3", "4"}, "2"),
+                new QuizQuestions("What is 4 × 5?", new String[]{"16", "20", "24", "25"}, "20"),
+                new QuizQuestions("What is the name of the closest star to Earth?", new String[]{"Sun", "Moon", "Venus", "Mars"}, "Sun"),
+                new QuizQuestions("Which animal is known for its long neck?", new String[]{"Elephant", "Giraffe", "Lion", "Tiger"}, "Giraffe"),
+                new QuizQuestions("What do plants need to grow?", new String[]{"Water and sunlight", "Air and food", "Water and food", "Sunlight and air"}, "Water and sunlight"),
+                new QuizQuestions("What is the color of the sky on a clear day?", new String[]{"Red", "Green", "Blue", "Yellow"}, "Blue"),
+                new QuizQuestions("What is the name of the closest planet to the Sun?", new String[]{"Earth", "Mars", "Venus", "Mercury"}, "Mercury"),
+                new QuizQuestions("What do you use to brush your teeth?", new String[]{"Comb", "Toothbrush", "Spoon", "Fork"}, "Toothbrush"),
+                new QuizQuestions("Which animal says 'moo'?", new String[]{"Dog", "Cat", "Cow", "Horse"}, "Cow"),
+                new QuizQuestions("What season comes after winter?", new String[]{"Spring", "Summer", "Autumn", "Winter again"}, "Spring"),
+                new QuizQuestions("What do you use to listen to music?", new String[]{"TV", "Radio", "Telephone", "Computer"}, "Radio"),
+                new QuizQuestions("What is the name of the big, round object in the sky at night?", new String[]{"Sun", "Moon", "Star", "Planet"}, "Moon"),
+                new QuizQuestions("How many legs does a cat have?", new String[]{"2", "4", "6", "8"}, "4"),
+                new QuizQuestions("How many fingers do you have on one hand?", new String[]{"3", "4", "5", "6"}, "5"),
+                new QuizQuestions("What comes after 5?", new String[]{"6", "7", "8", "9"}, "6"),
+                new QuizQuestions("How many sides does a square have?", new String[]{"3", "4", "5", "6"}, "4"),
+                new QuizQuestions("What number comes before 10?", new String[]{"8", "9", "10", "11"}, "9"),
+                new QuizQuestions("Which shape has three sides?", new String[]{"Square", "Circle", "Triangle", "Rectangle"}, "Triangle"),
+                new QuizQuestions("What shape is like a ball?", new String[]{"Square", "Circle", "Triangle", "Rectangle"}, "Circle"),
+                new QuizQuestions("Which shape has four equal sides?", new String[]{"Square", "Circle", "Triangle", "Rectangle"}, "Square"),
+                new QuizQuestions("What shape is like a door?", new String[]{"Square", "Circle", "Triangle", "Rectangle"}, "Rectangle"),
+                new QuizQuestions("What shape does a clock have?", new String[]{"Square", "Circle", "Triangle", "Rectangle"}, "Circle"),
+                new QuizQuestions("What do we call the white flakes that fall from the sky in winter?", new String[]{"Rain", "Hail", "Snow", "Ice"}, "Snow"),
+                new QuizQuestions("What do bees make?", new String[]{"Honey", "Milk", "Juice", "Water"}, "Honey"),
+                new QuizQuestions("What do we use to cover our heads when it rains?", new String[]{"Umbrella", "Hat", "Shoes", "Gloves"}, "Umbrella"),
+                new QuizQuestions("What grows on trees and we can eat?", new String[]{"Flowers", "Leaves", "Fruits", "Roots"}, "Fruits"),
+                new QuizQuestions("Which animal says 'meow'?", new String[]{"Dog", "Cat", "Cow", "Horse"}, "Cat")
+        };
+    }
+}

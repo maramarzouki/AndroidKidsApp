@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="quizButtonStyle" >
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:radius">20dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+</resources>

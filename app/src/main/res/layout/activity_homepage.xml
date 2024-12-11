@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    android:backgroundTintMode="src_over"
+    android:orientation="vertical"
+    tools:context=".Homepage"
+    android:gravity="center">
+<!--    android:backgroundTint="#80fff0f0" -->
+
+    <android.widget.Button
+        android:id="@+id/quizBtn"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:background="@drawable/homepage_buttons_background"
+        android:layout_margin="2dp"
+        android:textColor="#fff"
+        android:textStyle="bold |italic"/>
+
+    <android.widget.Button
+        android:id="@+id/whiteBoardBtn"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:text="White board"
+        android:background="@drawable/homepage_buttons_background"
+        android:layout_margin="2dp"
+        android:textColor="#fff"
+        android:textStyle="bold |italic" />
+
+    <android.widget.Button
+        android:id="@+id/mixColorsBtn"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:text="Colors"
+        android:background="@drawable/homepage_buttons_background"
+        android:layout_margin="2dp"
+        android:textColor="#fff"
+        android:textStyle="bold |italic" />
+
+<!--    <android.widget.Button-->
+<!--        android:id="@+id/settingsBtn"-->
+<!--        android:layout_width="285dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Settings"-->
+<!--        android:background="@drawable/homepage_buttons_background"-->
+<!--        android:layout_margin="2dp"-->
+<!--        android:textColor="#fff"-->
+<!--        android:textStyle="bold |italic"/>-->
+
+    <android.widget.Button
+        android:id="@+id/leaveAppBtn"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:text="Leave"
+        android:background="@drawable/homepage_buttons_background"
+        android:layout_margin="2dp"
+        android:textColor="#fff"
+        android:textStyle="bold |italic"/>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MixColors"
+    android:background="@drawable/mix_colors_background">
+
+    <tn.m1pdam.forkids.MixColorsCustomView
+        android:id="@+id/customView1"
+        android:layout_width="185dp"
+        android:layout_height="133dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="70dp"/>
+
+    <tn.m1pdam.forkids.MixColorsCustomView
+        android:id="@+id/customView2"
+        android:layout_width="185dp"
+        android:layout_height="133dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="70dp"/>
+
+    <tn.m1pdam.forkids.MixColorsCustomView
+        android:id="@+id/customView3"
+        android:layout_width="185dp"
+        android:layout_height="133dp" />
+
+    <Button
+        android:id="@+id/mixBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get color"
+        android:backgroundTint="#34a0a4"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leave"
+        android:backgroundTint="#76c893"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
